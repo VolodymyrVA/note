@@ -15,8 +15,9 @@ class LowArrayApp {
         a1.insert(94);
         a1.insert(25);
         a1.insert(10);
+        a1.insert(10);
 
-        let searchKey = 0;
+        let searchKey = 77;
         if (a1.booleanFind(searchKey)) {
             console.log("Found " + searchKey);
         }
@@ -29,7 +30,8 @@ class LowArrayApp {
 
         a1.display();
 
-        console.log(a1.a)
+        console.log(a1.a);
+        console.log(a1.booleanFind(15));
     }
 
 
